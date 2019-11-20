@@ -1,14 +1,25 @@
 import React, { Component } from 'react';
 import './NewsContainer.css';
-import { longStackSupport } from 'q';
+import NewsArticle from '../NewsArticle/NewsArticle';
 // import { ReactComponent } from '.svg';
 
 const NewsContainer = ({articles}) => {
-  console.log(articles);
-  
+
+  const articleCards = articles.map(({id, headline, img, description, url}) => {
+    return (
+      <NewsArticle 
+        key={id}
+        headline={headline}
+        img={img}
+        description={description}
+        url={url}
+      />
+    )
+  })
+
   return (
     <section className='container'>
-      
+      {articleCards}
     </section>
   )
 }
