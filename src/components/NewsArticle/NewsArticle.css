@@ -2,6 +2,10 @@ img {
   width: 100%;
 }
 
+.article {
+  height: 60%;
+}
+
 article {
   background-color: #FFF;
 }
