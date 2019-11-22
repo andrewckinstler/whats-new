@@ -24,11 +24,13 @@ class App extends Component {
     return (
       <div className="app">
         <Menu 
+        currentCategory={this.state.news}
         changeCategory={this.changeCategory}
         local={local}
         entertainment={entertainment}
         health={health}
         science={science}
+        technology={technology}
         />
         <NewsContainer articles={this.state.news}/>
       </div>

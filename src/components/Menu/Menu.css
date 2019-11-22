@@ -1,0 +1,18 @@
+nav {
+  display: flex;
+  flex-flow: column;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+button {
+  margin: 1em;
+  background-color: #141527;
+  color: #fff;
+  border: none;
+  font-size: 1.5em;
+}
+
+h1 {
+  color: #fff;
+}

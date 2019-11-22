@@ -1,9 +1,14 @@
-img {
-  width: 100%;
+.image {
+  height: 300px;
+  background-size: cover;
 }
 
 .article {
   height: 60%;
+}
+
+.text {
+  height: 100px;
 }
 
 article {
@@ -12,4 +17,15 @@ article {
 
 p, h3, a {
   color: #000;
+}
+
+.link {
+  display: flex;
+  align-items: flex-end;
+}
+
+a {
+  padding: 15px 0;
+  width: 100%;
+  background-color: rebeccapurple;
 }

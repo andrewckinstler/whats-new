@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './NewsContainer.css';
 import NewsArticle from '../NewsArticle/NewsArticle';
-// import { ReactComponent } from '.svg';
+
 
 const NewsContainer = ({articles}) => {
 
