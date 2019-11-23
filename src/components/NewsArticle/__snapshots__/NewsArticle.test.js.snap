@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly match the snapshot 1`] = `
+<article>
+  <div
+    className="image"
+    style={
+      Object {
+        "backgroundImage": "url(image)",
+      }
+    }
+  />
+  <div
+    className="text"
+  >
+    <h3>
+      hello world
+    </h3>
+    <p>
+      this is a description
+    </p>
+  </div>
+  <div
+    className="link"
+  >
+    <a
+      href="www.url.com"
+    >
+      Link to article
+    </a>
+  </div>
+</article>
+`;
