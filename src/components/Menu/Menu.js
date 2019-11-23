@@ -1,5 +1,6 @@
 import React from 'react';
 import './Menu.css'
+import PropTypes from 'prop-types';
 
 const Menu = ({ changeCategory, local, entertainment, health, science, technology }) => {
   return (
@@ -12,6 +13,15 @@ const Menu = ({ changeCategory, local, entertainment, health, science, technolog
       <button className='tech' onClick={() => changeCategory(technology)}>Technology</button>
     </nav>
   )
+}
+
+Menu.propTypes = {
+  changeCategory: PropTypes.func,
+  local: PropTypes.array,
+  entertainment: PropTypes.array,
+  health: PropTypes.array,
+  science: PropTypes.array,
+  technology: PropTypes.array,
 }
 
 export default Menu;
