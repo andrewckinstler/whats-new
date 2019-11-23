@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsContainer should create a boilerplate of the container 1`] = `
+<section
+  className="container"
+>
+  <NewsArticle
+    description="description"
+    headline="headline"
+    img="img"
+    url="url"
+  />
+  <NewsArticle
+    description="description1"
+    headline="headline1"
+    img="img1"
+    url="url1"
+  />
+  <NewsArticle
+    description="description2"
+    headline="headline2"
+    img="img2"
+    url="url2"
+  />
+</section>
+`;
