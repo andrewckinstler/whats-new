@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import './NewsContainer.css';
 import NewsArticle from '../NewsArticle/NewsArticle';
 
@@ -22,6 +23,10 @@ const NewsContainer = ({articles}) => {
       {articleCards}
     </section>
   )
+}
+
+NewsContainer.propTypes = {
+  articles: PropTypes.array
 }
 
 

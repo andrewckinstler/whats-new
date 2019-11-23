@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './NewsArticle.css';
 
 const NewsArticle = ({headline, img, description, url}) => {
@@ -15,6 +16,13 @@ const NewsArticle = ({headline, img, description, url}) => {
       </div>
     </article>
   )
+}
+
+NewsArticle.propTypes = {
+  headline: PropTypes.string,
+  img: PropTypes.string,
+  description: PropTypes.string,
+  url: PropTypes.string
 }
 
 export default NewsArticle;
