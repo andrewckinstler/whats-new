@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should create a boilerplate of the app 1`] = `
+exports[`App should create a boilerplate of the app 1`] = `
 <div
   className="app"
 >
