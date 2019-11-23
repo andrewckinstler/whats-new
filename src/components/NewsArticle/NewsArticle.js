@@ -7,7 +7,7 @@ const NewsArticle = ({headline, img, description, url}) => {
       <div className='image' style={{backgroundImage: `url(${img})`}}>
       </div>
       <div className='text'>
-      <h3>{headline}</h3>
+      <h2 className='headline'>{headline}</h2>
       <p>{description}</p>
       </div>
       <div className='link'>
