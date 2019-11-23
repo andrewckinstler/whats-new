@@ -22,5 +22,5 @@ The focus of this project was to get our hands dirty with React for the first ti
 
 ![what's new screenshot](./screenshots/whats-new.png)
 
-![my what's new screenshot]('https://user-images.githubusercontent.com/45186438/69470908-4dfd8e80-0d57-11ea-9ed8-43a0f11f35a2.png')
+![my what's new screenshot]('./screenshots/screenshot.png')
 
